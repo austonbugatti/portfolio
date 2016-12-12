@@ -24,11 +24,24 @@ img {
 a {
   background-color: pink;
   color: white;
-  font-family: monospace;
+
   margin: 0 auto 0 auto;
   display: block;
   text-align: center;
 }
+
+h1 {
+  color: #000;
+  background-color: aqua;
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  color: d;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
 
 h2 {
   color: #000;
