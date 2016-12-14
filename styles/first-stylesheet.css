@@ -21,13 +21,29 @@ img {
   width: auto;
 }
 
+li:hover {
+  background: rgb(150,255,255);
+  border-radius: 50%;
+  transition: 1s;
+}
+
 a {
   background-color: pink;
   color: white;
-
   margin: 0 auto 0 auto;
   display: block;
   text-align: center;
+}
+
+a:hover {
+  background: rgb(0,255,105);
+  transform: rotate(180deg);
+  transition: 1.5s;
+}
+
+img:hover {
+  height: 30vmin; 
+  width: 50vmin;
 }
 
 h1 {
