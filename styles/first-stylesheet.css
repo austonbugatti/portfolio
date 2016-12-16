@@ -41,9 +41,17 @@ a:hover {
   transition: 1.5s;
 }
 
-img:hover {
-  height: 30vmin; 
-  width: 50vmin;
+img {
+  max-width: 100%;
+}
+    
+.nav-pills>li.active>a {
+      background-color: magenta;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
 
 h1 {
